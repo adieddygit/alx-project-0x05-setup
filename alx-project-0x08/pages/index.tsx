@@ -32,7 +32,7 @@ const Home: React.FC = () => {
         {imageUrl && <ImageCard action={() => setImageUrl(imageUrl)} imageUrl={imageUrl} prompt={prompt}/>}
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Home;
